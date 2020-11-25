@@ -1,0 +1,15 @@
+//multiplication table till n
+#iclude<stdio.h>
+int main ()
+{
+int n, i , c;
+printf("enter an integer");
+scanf("%d", &n);
+printf("enetr number till where multiplication table should work");
+scanf("%d", &c);
+for(1 - 1, 1<=c; ++1)
+{
+printf("%d * %d = %d\n", n, i, n* i);
+}
+return 0;
+}

@@ -1,0 +1,22 @@
+#include <stdio.h>
+int main()
+{
+   int n, reverse=0, a,o;
+
+   printf("Enter a number\n");
+   scanf("%d", &n);
+   o=n;
+
+   for (n; n!= 0; n = n/10) {
+      a = n % 10;
+       reverse=reverse*10+a;
+   }
+
+   printf("REVERSE of digits of a number = %d\n", reverse);
+   if (o==reverse)
+       printf("pallindrome");
+    else
+        printf("not a pallindrome");
+   
+   return 0;
+}
